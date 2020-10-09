@@ -1,0 +1,61 @@
+.pay-content {
+  .cart-info {
+    padding: 16rpx 0;
+    .cart-item {
+      display: flex;
+      border-bottom: 5rpx solid #dedede;
+      .item-check {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        checkbox-group {
+          checkbox {
+            border-collapse: initial;
+          }
+        }
+      }
+      .item-picture {
+        flex: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        image {
+          width: 80%;
+        }
+      }
+      .item-info {
+        flex: 4;
+        .goods-name {
+          display: -webkit-box;
+          overflow: hidden;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          color: #666;
+        }
+        .control {
+          display: flex;
+          justify-content: space-between;
+          .goods-price {
+            padding-top: 16rpx;
+            padding-left: 10rpx;
+            font-size: 36rpx;
+            color: var(--themeColor)
+          }
+          .num-control {
+            margin-top: 16rpx;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .num {
+              margin: 0 32rpx;
+              font-size: 36rpx;
+              font-weight: 400;
+              color: lightslategray;
+            }
+          }
+        }
+      }
+    }
+  }
+}

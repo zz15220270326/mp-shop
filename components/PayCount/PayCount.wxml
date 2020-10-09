@@ -1,0 +1,15 @@
+<view class="cart-count">
+	<!-- 总价格 -->
+	<view class="total-price-content">
+		<view class="total-price">
+			合计:
+			<text class="total-price-text"> ¥{{totalPrice}}</text>
+		</view>
+		<view>包含运费</view>
+	</view>
+	<!-- 合计 -->
+	<view class="counter-button">
+		支付({{totalNum}})
+	</view>
+</view>
+

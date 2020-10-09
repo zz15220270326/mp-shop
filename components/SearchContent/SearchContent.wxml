@@ -1,0 +1,12 @@
+<view class="search-content">
+	<view
+	 class="search-item"
+	 wx:for="{{searchItems}}"
+	 wx:key="index"
+	>
+		<navigator url="/pages/goods_detail/index?goods_id={{item.goods_id}}">
+			{{item.goods_name}}
+		</navigator>
+	</view>
+</view>
+

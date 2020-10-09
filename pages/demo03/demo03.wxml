@@ -1,0 +1,10 @@
+<Tabs tab-list="{{tabList}}" bindtabTap="tabTap">
+  <view>
+    <block wx:if="{{tabList[0].isActive}}">首页</block>
+    <block wx:elif="{{tabList[1].isActive}}">原创</block>
+    <block wx:elif="{{tabList[2].isActive}}">分类</block>
+    <block wx:else>关于</block>
+  </view>
+</Tabs>
+
+<!-- 在父组件调用子组件时, slot会被替换成父组件传递过去的内容 -->

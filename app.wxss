@@ -1,0 +1,17 @@
+@import "./styles/iconsFont.wxss";
+
+/* base-styles */
+page, view, text, navigator, swiper, swiper-item, image {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+/* theme-color */
+page {
+  --themeColor: #ff9400;
+  font-size: 28rpx;
+}
+
+image {
+  width: 100%;
+}

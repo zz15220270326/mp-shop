@@ -1,0 +1,17 @@
+<view class="cart-page">
+	<ReceiveAddress address="{{address }}" />
+	<CartContent
+	 cartList="{{cartList}}"
+	 bindcartItemChange="cartItemChange"
+	 bindhandleAdd="handleAdd"
+	 bindhandleSub="handleSub"
+	/>
+	<CartCount
+	 allChecked="{{allChecked}}"
+	 totalNum="{{totalNum}}"
+	 totalPrice="{{totalPrice}}"
+	 bindallCheckedChange="allCheckedChange"
+	 bindtoPay="toPay"
+	/>
+</view>
+

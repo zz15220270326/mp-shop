@@ -1,0 +1,17 @@
+<view
+ class="upload-image"
+ wx:for="{{imagePathList}}"
+ wx:key="*this"
+ data-index="{{index}}"
+ bindtap="removeImage"
+>
+	<image class="img" src="{{item}}" />
+	<icon
+	 class="ico"
+	 type="clear"
+	 size="23"
+	 color="red"
+	>
+	</icon>
+</view>
+

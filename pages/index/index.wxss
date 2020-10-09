@@ -1,0 +1,5 @@
+/* pages/index/index.wxss */
+.text-view {
+  color: var(--themeColor);
+  font-size: 50rpx;
+}

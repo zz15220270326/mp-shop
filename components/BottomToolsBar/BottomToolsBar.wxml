@@ -1,0 +1,23 @@
+<view class="bottom-tools-bar">
+	<view class="kefu">
+		<text class="iconfont icon-kefu"></text>
+		<view>联系客服</view>
+		<button open-type="contact"></button>
+	</view>
+	<view class="share">
+		<text class="iconfont icon-fenxiang"></text>
+		<view>分享</view>
+		<button open-type="share"></button>
+	</view>
+	<view class="cart">
+		<text class="iconfont icon-cart"></text>
+		<view>
+			<navigator url="/pages/cart/index" open-type="switchTab">
+				购物车
+			</navigator>
+		</view>
+	</view>
+	<view class="add-to-cart" bindtap="addToCart">加入购物车</view>
+	<view class="buy-now">立即购买</view>
+</view>
+

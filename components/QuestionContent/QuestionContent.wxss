@@ -1,0 +1,29 @@
+.question-content {
+  margin-top: 16rpx;
+  padding: 0 10rpx;
+}
+.question-content .question-text {
+  background-color: #fff;
+  width: 100%;
+}
+.question-content .feedback-content {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+.question-content .feedback-content button {
+  width: 20%;
+  color: #888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16rpx;
+  bottom: 10rpx;
+}
+.question-content button {
+  margin: 0;
+  float: right;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  width: 35%;
+}

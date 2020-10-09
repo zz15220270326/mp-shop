@@ -1,0 +1,10 @@
+<view class="login-page">
+	<button
+	 type="primary"
+	 plain
+	 open-type="getUserInfo"
+	 bindgetuserinfo="loginUserInfo"
+	>登录
+	</button>
+</view>
+

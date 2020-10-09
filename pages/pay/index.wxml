@@ -1,0 +1,11 @@
+<view class="pay-page">
+	<ReceiveAddress address="{{address}}" />
+	<PayContent cartList="{{cartList}}" />
+	<PayCount
+	 totalNum="{{totalNum}}"
+	 totalPrice="{{totalPrice}}"
+	 bindallCheckedChange="allCheckedChange"
+	 bindtap="handlePay"
+	/>
+</view>
+

@@ -1,0 +1,15 @@
+<view class="goods-list">
+	<SearchInput/>
+	<Tabs tabs="{{tabs}}" bindactiveTap="activeTap">
+		<block wx:if="{{tabs[0].isActive}}">
+			<GoodsListItem dataInfoList="{{dataInfoList}}" />
+		</block>
+		<block wx:elif="{{tabs[1].isActive}}">
+			second page
+		</block>
+		<block wx:else>
+			third page
+		</block>
+	</Tabs>
+</view>
+

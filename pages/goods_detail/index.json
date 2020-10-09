@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "SwiperSmall": "/components/SwiperSmall/SwiperSmall",
+    "DetailInfo": "/components/DetailInfo/DetailInfo",
+    "BottomToolsBar": "/components/BottomToolsBar/BottomToolsBar"
+  },
+  "navigationBarTitleText": "商品详情"
+}

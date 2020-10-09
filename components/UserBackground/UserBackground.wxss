@@ -1,0 +1,41 @@
+.user-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.user-background .user-login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rpx;
+}
+.user-background .user-login .nav-to-login {
+  font-size: 40rpx;
+  color: #0094ff;
+  border: 3rpx solid #0094ff;
+}
+.user-background .user-login .user-profile {
+  width: 100%;
+  height: 50vw;
+  position: relative;
+}
+.user-background .user-login .user-profile .user-background {
+  filter: blur(10rpx);
+}
+.user-background .user-login .user-profile .user-info {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%);
+  text-align: center;
+}
+.user-background .user-login .user-profile .user-info .user-icon {
+  height: 20vw;
+  border-radius: 50%;
+}
+.user-background .user-login .user-profile .user-info .user-name {
+  color: #fff;
+  font-size: 34rpx;
+}

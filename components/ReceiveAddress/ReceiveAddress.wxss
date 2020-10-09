@@ -1,0 +1,28 @@
+.receive-address-page .add-address-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.receive-address-page .add-address-button button {
+  margin-top: 10rpx;
+  opacity: 0.75;
+}
+.receive-address-page .show-address-content {
+  padding: 12rpx 3rpx;
+}
+.receive-address-page .show-address-content .user {
+  display: flex;
+}
+.receive-address-page .show-address-content .user .host {
+  flex: 1;
+  text-align: left;
+  padding: 10rpx;
+}
+.receive-address-page .show-address-content .user .telephone {
+  flex: 1;
+  text-align: right;
+  padding: 10rpx;
+}
+.receive-address-page .show-address-content .address-info {
+  padding: 10rpx;
+}

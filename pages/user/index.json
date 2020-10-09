@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "UserBackground": "/components/UserBackground/UserBackground",
+    "UserContent": "/components/UserContent/UserContent" 
+  },
+  "navigationBarTitleText": "个人"
+}

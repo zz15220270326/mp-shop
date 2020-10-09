@@ -1,0 +1,7 @@
+/* pages/demo02/demo02.wxss */
+/* @import "../../assets/style/outside.wxss" */
+image {
+  width: 100%;
+  /* height: calc(100vw * 352 /  1125); */
+  border: 1px solid orange;
+}

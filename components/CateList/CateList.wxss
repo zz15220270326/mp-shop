@@ -1,0 +1,23 @@
+/* .cate-list {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.cate-nav {
+  flex: 1;
+  padding: 15px;
+}
+.cate-img {
+  width: 100%;
+} */
+.cate-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rpx; 
+}
+.cat-nav {
+  flex: 1;
+}
+.cate-img {
+  width: 120rpx;
+  height: 120rpx;
+}

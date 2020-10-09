@@ -1,0 +1,45 @@
+.user-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-color: var(--themeColor);
+  overflow: hidden;
+  .user-login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rpx;
+    .nav-to-login {
+      font-size: 40rpx;
+      color: #0094ff;
+      border: 3rpx solid #0094ff;
+    }
+    .user-profile {
+      width: 100%;
+      height: 50vw;
+      position: relative;
+      .user-background {
+        // 实现页面模糊效果 (高斯模糊)
+        // -webkit-filter: blur(10rpx);
+        filter: blur(10rpx);
+      }
+      .user-info {
+        position: absolute;
+        left: 50%;
+        top: 10%;
+        transform: translate(-50%);
+        text-align: center;
+        .user-icon {
+          height: 20vw;
+          border-radius: 50%;
+        }
+        .user-name {
+          color: #fff;
+          font-size: 34rpx;
+        }
+      }
+    }
+  }
+
+}

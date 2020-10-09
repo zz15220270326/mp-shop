@@ -1,0 +1,8 @@
+.swiper-small swiper {
+  top: 0;
+  height: 70vw;
+  text-align: center;
+}
+.swiper-small swiper .swiper-item image {
+  width: 70%;
+}

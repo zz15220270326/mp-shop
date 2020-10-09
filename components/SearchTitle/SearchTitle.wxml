@@ -1,0 +1,9 @@
+<view class="search-title">
+	<input
+	 value="{{inputValue}}"
+	 placeholder="请输入搜索信息"
+	 bindinput="getSearchInput"
+	/>
+	<button hidden="{{!isShow}}" bindtap="clearInput">清空</button>
+</view>
+

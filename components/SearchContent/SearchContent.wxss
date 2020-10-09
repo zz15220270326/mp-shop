@@ -1,0 +1,16 @@
+.search-content {
+  margin-top: 16rpx;
+  padding: 0 25rpx;
+}
+.search-content .search-item {
+  height: 60rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 20rpx 0;
+  padding: 14rpx 16rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  color: #888;
+}

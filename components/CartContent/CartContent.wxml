@@ -1,0 +1,62 @@
+<view class="cart-content">
+	<view class="cart-title">
+		<text>购物车</text>
+		<text class="iconfont icon-cart"></text>
+	</view>
+	<block wx:if="{{cartList.length !== 0}}">
+		<view class="cart-info">
+			<view
+			 class="cart-item"
+			 wx:for="{{cartList}}"
+			 wx:key="goods_id"
+			>
+				<!-- 复选框 -->
+				<view class="item-check">
+					<checkbox-group bindchange="cartItemChange" data-id="{{item.goods_id}}">
+						<checkbox checked="{{item.checked}}" value="{{item.goods_id}}">
+						</checkbox>
+					</checkbox-group>
+				</view>
+				<!-- 商品图片 -->
+				<view class="item-picture">
+					<image mode="widthFix" src="{{item.goods_small_logo}}" />
+				</view>
+				<!-- 商品信息 -->
+				<view class="item-info">
+					<view class="goods-name">{{item.goods_name}}</view>
+					<view class="control">
+						<view class="goods-price">¥{{item.goods_price}}</view>
+						<view class="num-control">
+							<button
+							 size="mini"
+							 bindtap="handleSub"
+							 data-id="{{item.goods_id}}"
+							>-
+							</button>
+							<view class="num">{{item.num}}</view>
+							<button
+							 size="mini"
+							 bindtap="handleAdd"
+							 data-id="{{item.goods_id}}"
+							>+
+							</button>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</block>
+	<block wx:else>
+		<view class="empty-content">
+			<view>
+				<image
+				 src="https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80"
+				 mode="widthFix"
+				 lazy-load="{{true}}"
+				/>
+			</view>
+			<view class="node-text">购物车空空如也哦，快去商品页面进行选购吧！</view>
+		</view>
+	</block>
+</view>
+

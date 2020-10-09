@@ -1,0 +1,12 @@
+<view class="goods_detail">
+	<SwiperSmall swiperList="{{swiperList}}" />
+	<DetailInfo
+	 goodsPrice="{{goodsPrice}}"
+	 goodsName="{{goodsName}}"
+	 goodsIntroduce="{{goodsIntroduce}}"
+	 isCollect="{{isCollect}}"
+	 bindcollectTap="collectTap"
+	/>
+	<BottomToolsBar detailData="{{detailData}}" />
+</view>
+

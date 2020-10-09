@@ -1,0 +1,21 @@
+.question-type {
+  margin-top: 16rpx;
+}
+.question-type .title {
+  margin-left: 16rpx;
+  color: #666;
+}
+.question-type .content {
+  color: #666;
+  display: flex;
+  flex-wrap: wrap;
+}
+.question-type .content .content-item {
+  width: 30%;
+  margin: 10rpx 12rpx;
+  padding: 10rpx 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}

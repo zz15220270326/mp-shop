@@ -1,0 +1,6 @@
+<view class="collect-page">
+	<Tabs tabs="{{tabs}}" bindactiveTap="activeTap" />
+	<CollectSelect selectItem="{{selectItem}}" bindselectItem="selectItem" />
+	<GoodsListItem dataInfoList="{{collect}}" />
+</view>
+

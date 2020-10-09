@@ -1,0 +1,13 @@
+page {
+  height: 100%;
+}
+.category-page .content {
+  display: flex;
+  height: calc(100vh - 90rpx);
+}
+.category-page .content .left {
+  flex: 2;
+}
+.category-page .content .right {
+  flex: 5;
+}

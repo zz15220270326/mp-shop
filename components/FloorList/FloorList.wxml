@@ -1,0 +1,10 @@
+<view class="floor-list" wx:for="{{floorList}}" wx:key="floor_title">
+  <view class="floor-title">
+    <image src="{{item.floor_title.image_src}}" mode="widthFix" />
+  </view>
+  <view class="product-list">
+    <navigator class="product-list-nav" wx:for="{{item.product_list}}" wx:key="name" url="{{item.navigator_url}}">
+      <image src="{{item.image_src}}" mode="{{index === 0 ? 'widthFix': 'scaleToFill'}}" />
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<!-- <view class="text-view">test</view> -->
+<view>
+  <!-- <text>Hello mini-program</text>
+  <text class="iconfont icon-pay"></text> -->
+  <SearchInput />
+  <Swiper swiperList="{{swiperList}}" />
+  <CateList cateList="{{cateList}}" />
+  <FloorList floorList="{{floorList}}" />
+</view>

@@ -1,0 +1,2 @@
+<Tabs tab-list="{{tabList}}" bindtabTap="tabTap"></Tabs>
+<view>小程序的生命周期</view>

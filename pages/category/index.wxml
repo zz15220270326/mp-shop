@@ -1,0 +1,19 @@
+<view class="category-page">
+  <SearchInput class="category-search-input" />
+  <view class="content">
+    <scroll-view 
+      class="left" 
+      scroll-y 
+    >
+      <LeftList
+        class="active"
+        leftList="{{leftList}}" 
+        bindgetTitleIndex="getTitleIndex"
+        currentIndex="{{currentIndex}}"
+      />
+    </scroll-view>
+    <scroll-view class="right" scroll-y scroll-top="{{scrollTop}}">
+      <RightList rightList="{{rightList}}" />
+    </scroll-view>
+  </view>
+</view>

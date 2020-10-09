@@ -1,0 +1,12 @@
+<view class="feedback-page">
+	<Tabs tabs="{{tabs}}" bindactiveTap="activeTap" />
+	<QuestionType/>
+	<QuestionContent
+	 imagePathList="{{imagePathList}}"
+	 bind:addImage="addImage"
+	 bind:removeImage="removeImage"
+	 bind:changeInput="changeInput"
+	 bind:feedbackSubmit="feedbackSubmit"
+	/>
+</view>
+

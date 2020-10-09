@@ -1,0 +1,16 @@
+<view class="left-list">
+  <view 
+    class="left-item" 
+    wx:for="{{leftList}}" 
+    wx:key="number"
+  >
+    <text 
+      bindtap="getTitleIndex" 
+      data-index="{{index}}"
+      class="{{index === currentIndex ? 'active' : ''}}"
+      bindtap="pageRefresh"
+    >
+      {{item}}
+    </text>
+  </view>
+</view>

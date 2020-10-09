@@ -1,0 +1,8 @@
+/* 图片的大小等比例缩放 */
+.swiper-item {
+  width: 750rpx;
+  height: 340rpx;
+}
+.swiper-image {
+  width: 100%;
+}

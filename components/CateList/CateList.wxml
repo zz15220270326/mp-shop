@@ -1,0 +1,16 @@
+<view class="cate-list">
+	<navigator
+	 class="cate-nav"
+	 wx:for="{{cateList}}"
+	 wx:key="name"
+	 url="{{item.navigator_url}}"
+	 open-type="switchTab"
+	>
+		<image
+		 class="cate-img"
+		 src="{{item.image_src}}"
+		 mode="widthFix"
+		/>
+	</navigator>
+</view>
+

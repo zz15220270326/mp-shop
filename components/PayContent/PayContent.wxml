@@ -1,0 +1,25 @@
+<view class="pay-content">
+	<view class="cart-info">
+		<view
+		 class="cart-item"
+		 wx:for="{{cartList}}"
+		 wx:key="goods_id"
+		>
+			<!-- 商品图片 -->
+			<view class="item-picture">
+				<image mode="widthFix" src="{{item.goods_small_logo}}" />
+			</view>
+			<!-- 商品信息 -->
+			<view class="item-info">
+				<view class="goods-name">{{item.goods_name}}</view>
+				<view class="control">
+					<view class="goods-price">¥{{item.goods_price}}</view>
+					<view class="num-control">
+						<view class="num">x{{item.num}}</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+

@@ -1,0 +1,24 @@
+<!-- receive-address -->
+<view class="receive-address-page">
+	<!-- 未添加地址时显示 -->
+	<view class="add-address-button" wx:if="{{!address.userName}}">
+		<button
+		 type="primary"
+		 plain
+		 bindtap="addAddressClick"
+		>
+			添加收货地址
+		</button>
+	</view>
+	<!-- 添加地址之后显示 -->
+	<view class="show-address-content" wx:else>
+		<view class="user">
+			<view class="host">收货人: {{address.userName}}</view>
+			<view class="telephone">{{address.telNumber}}</view>
+		</view>
+		<view class="address-info">
+			{{address.detailAddress}}
+		</view>
+	</view>
+</view>
+

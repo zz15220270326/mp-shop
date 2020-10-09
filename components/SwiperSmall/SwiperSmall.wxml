@@ -1,0 +1,26 @@
+<view class="swiper-small">
+	<swiper
+	 autoplay
+	 interval="2000"
+	 circular
+	 indicator-dots
+	 indicator-color="0094ff"
+	 indicator-active-color="#ff9400"
+	 wx:if="{{swiperList}}"
+	>
+		<swiper-item
+		 class="swiper-item"
+		 wx:for="{{swiperList}}"
+		 wx:key="pics_id"
+		 bindtap="handlePreviewImage"
+		 data-index="{{index}}"
+		>
+			<image
+			 mode="widthFix"
+			 src="{{item.pics_mid}}"
+			 class="swiper-image"
+			/>
+		</swiper-item>
+	</swiper>
+</view>
+

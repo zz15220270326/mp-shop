@@ -1,0 +1,4 @@
+<view class="order-page">
+	<Tabs tabs="{{tabs}}" bindactiveTap="activeTap" />
+</view>
+

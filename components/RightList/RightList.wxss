@@ -1,0 +1,19 @@
+.right-list .right-title {
+  height: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-list .right-title .depart {
+  padding: 0 10px;
+}
+.right-list .right-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.right-list .right-content navigator {
+  width: 33.33%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

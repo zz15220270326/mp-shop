@@ -1,0 +1,10 @@
+<view class="question-type">
+	<view class="title">问题的种类</view>
+	<view class="content">
+		<view class="content-item">功能建议</view>
+		<view class="content-item">购买遇到的问题</view>
+		<view class="content-item">性能问题</view>
+		<view class="content-item">其他</view>
+	</view>
+</view>
+

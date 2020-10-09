@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "Tabs": "/components/Tabs/Tabs",
+    "CollectSelect": "/components/CollectSelect/CollectSelect",
+    "GoodsListItem": "/components/GoodsListItem/GoodsListItem"
+  },
+  "navigationBarTitleText": "商品收藏"
+}

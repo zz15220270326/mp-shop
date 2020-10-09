@@ -1,0 +1,10 @@
+/* pages/demo01/demo01.wxss */
+view {
+  width: 200rpx;
+  height: 50rpx;
+  /* background-color: skyblue; */
+  /* 
+    对于未确定的机型求宽度 page
+    width: calc(750rpx*100/375)
+  */
+}

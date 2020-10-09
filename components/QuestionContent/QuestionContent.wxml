@@ -1,0 +1,20 @@
+<view class="question-content">
+	<textarea
+	 class="question-text"
+	 placeholder="请填写一下您的问题"
+	 cols="30"
+	 rows="10"
+	 value="{{inputValue}}"
+	 bindinput="changeInput"
+	></textarea>
+	<view
+	 class="feedback-content"
+	 hover-class="none"
+	 hover-stop-propagation="false"
+	>
+		<button bindtap="addImage">+</button>
+		<UploadImage imagePathList="{{imagePathList}}" bind:removeImage="removeImage" />
+	</view>
+	<button type="primary" bindtap="feedbackSubmit">提交</button>
+</view>
+

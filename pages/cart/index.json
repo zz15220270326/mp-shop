@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "ReceiveAddress": "/components/ReceiveAddress/ReceiveAddress",
+    "CartContent": "/components/CartContent/CartContent",
+    "CartCount": "/components/CartCount/CartCount"
+  },
+  "navigationBarTitleText": "购物车页面"
+}

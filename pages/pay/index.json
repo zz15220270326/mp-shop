@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "ReceiveAddress": "/components/ReceiveAddress/ReceiveAddress",
+    "PayContent": "/components/PayContent/PayContent",
+    "PayCount": "/components/PayCount/PayCount"
+  },
+  "navigationBarTitleText": "支付页面"
+}

@@ -1,0 +1,14 @@
+<view class="collet-select">
+	<view
+	 class="select-content "
+	 wx:for="{{selectItem}}"
+	 wx:key="id"
+	 bindtap="selectItem"
+	 data-index="{{index}}"
+	>
+		<view class="select-item {{item.isActive ? 'active' : ''}}">
+			{{item.name}}
+		</view>
+	</view>
+</view>
+

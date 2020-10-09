@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商城首页",
+  "usingComponents": {
+    "SearchInput": "/components/SearchInput/SearchInput",
+    "Swiper": "/components/Swiper/Swiper",
+    "CateList": "/components/CateList/CateList",
+    "FloorList": "/components/FloorList/FloorList"
+  }
+}

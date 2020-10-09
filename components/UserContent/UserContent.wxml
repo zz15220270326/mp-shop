@@ -1,0 +1,64 @@
+<view class="user-content-page">
+	<view class="user-title-wrapper">
+		<navigator class="content">
+			<view>0</view>
+			<view>店铺收藏</view>
+		</navigator>
+		<navigator class="content" url="/pages/collect/index">
+			<view>{{collectLength}}</view>
+			<view>商品收藏</view>
+		</navigator>
+		<navigator class="content">
+			<view>0</view>
+			<view>商品关注</view>
+		</navigator>
+		<navigator class="content">
+			<view>0</view>
+			<view>我的足迹</view>
+		</navigator>
+	</view>
+	<view class="user-list-title">我的订单</view>
+	<view class="user-list-content">
+		<navigator class="content" url="/pages/order/index?type=1">
+			<view>
+				<text class="iconfont icon-ding_dan"></text>
+			</view>
+			<view>全部订单</view>
+		</navigator>
+		<navigator class="content" url="/pages/order/index?type=2">
+			<view>
+				<text class="iconfont icon-fukuantongzhi"></text>
+			</view>
+			<view>待付款</view>
+		</navigator>
+		<navigator class="content" url="/pages/order/index?type=3">
+			<view>
+				<text class="iconfont icon-0_address"></text>
+			</view>
+			<view>待收货</view>
+		</navigator>
+		<navigator class="content" url="/pages/order/index?type=4">
+			<view>
+				<text class="iconfont icon-pay"></text>
+			</view>
+			<view>退货/退款</view>
+		</navigator>
+	</view>
+	<view class="address-management">收货地址管理</view>
+	<view class="contact-cs">
+		<view>联系客服</view>
+		<view>020-8865794</view>
+	</view>
+	<view class="to-feedback">
+		<navigator
+		 hover-class="navigator-hover"
+		 open-type="navigate"
+		 url="/pages/feedback/index"
+		>
+			意见反馈
+		</navigator>
+	</view>
+	<view class="about-us">关于我们</view>
+	<view class="share-to-other">推荐给小伙伴</view>
+</view>
+

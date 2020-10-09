@@ -1,0 +1,21 @@
+<view class="user-background">
+	<view class="user-login">
+		<button
+		 wx:if="{{!userInfo.nickName}}"
+		 type="default"
+		 plain
+		 class="nav-to-login"
+		 bindtap="toLoginPage"
+		>
+			用户登录
+		</button>
+		<view wx:else class="user-profile">
+			<image class="user-background" src="{{userInfo.avatarUrl}}" />
+			<view class="user-info">
+				<image class="user-icon" src="{{userInfo.avatarUrl}}" />
+				<view class="user-name">{{userInfo.nickName}}</view>
+			</view>
+		</view>
+	</view>
+</view>
+

@@ -1,0 +1,4 @@
+.auth-page button {
+  margin-top: 30rpx;
+  width: 80%;
+}

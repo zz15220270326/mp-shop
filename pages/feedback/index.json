@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "Tabs": "/components/Tabs/Tabs",
+    "QuestionType": "/components/QuestionType/QuestionType",
+    "QuestionContent": "/components/QuestionContent/QuestionContent",
+    "UploadImage": "/components/UploadImage/UploadImage"
+  },
+  "navigationBarTitleText": "反馈"
+}

@@ -1,0 +1,19 @@
+<view class="detail-info-page">
+	<view class="detail-info-title">
+		¥{{goodsPrice}}
+	</view>
+	<view class="detail-info-content">
+		<view class="goods-info">
+			{{goodsName}}
+		</view>
+		<view class="goods-collect">
+			<view class="collect">收藏</view>
+			<!-- <text class="iconfont icon-collect"></text> -->
+			<text class="iconfont {{isCollect ? 'icon-collect1' : 'icon-collect'}}" bindtap="collectTap" ></text>
+		</view>
+	</view>
+	<view class="goods-introduce">
+		<rich-text nodes="{{goodsIntroduce}}"></rich-text>
+	</view>
+</view>
+

@@ -1,0 +1,4 @@
+.login-page button {
+  margin-top: 40rpx;
+  opacity: 0.75;
+}

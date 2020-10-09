@@ -1,0 +1,10 @@
+<view class="search-page">
+	<SearchTitle
+	 bind:getSearchInput="getSearchInput"
+	 isShow="{{isShow}}"
+	 bindclearInput="clearInput"
+	 inputValue="{{inputValue}}"
+	/>
+	<SearchContent searchItems="{{searchItems}}" />
+</view>
+

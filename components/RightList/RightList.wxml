@@ -1,0 +1,23 @@
+<view
+ class="right-list"
+ wx:for="{{rightList}}"
+ wx:key="cat_id"
+>
+	<view class="right-title">
+		<text class="depart">*</text>
+		<text class="title">{{item.cat_name}}</text>
+		<text class="depart">*</text>
+	</view>
+	<view class="right-content">
+		<navigator
+		 open-type="navigate"
+		 wx:for="{{item.children}}"
+		 wx:key="cat_id"
+		 url="/pages/goods_list/index?cid={{item.cat_id}}"
+		>
+			<image src="{{item.cat_icon}}" mode="widthFix" />
+			<text>{{item.cat_name}}</text>
+		</navigator>
+	</view>
+</view>
+

@@ -1,0 +1,20 @@
+.tabs {
+  background-color: #fff;
+}
+.tabs .tabs-title {
+  display: flex;
+  padding: 15rpx 0;
+}
+.tabs .tabs-title .tabs-item {
+  color: #666;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.tabs .tabs-title .active {
+  font-weight: bold;
+  font-size: 32rpx;
+  color: var(--themeColor);
+  border-bottom: 5rpx solid var(--themeColor);
+}

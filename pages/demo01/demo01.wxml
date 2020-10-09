@@ -1,0 +1,72 @@
+<!-- 
+  基本标签:
+   1. text -> span(html)
+   2. view -> div(html)
+   3. checkbox -> 小程序中自定义的复选框
+ -->
+<!-- <view>
+  <text> 身高: {{height}} </text>
+</view>
+<view >
+  <text data-render='{{isRender}}'>自定义属性</text>
+  <checkbox checked='{{isChecked}}'></checkbox>
+</view>
+<view id="calculate">
+  <view>数字运算结果: {{25*4}}</view>
+  <view>字符串拼接结果: {{'hello' + ' '+ 'world'}}</view>
+  <view>三元运算符结果: {{15%3===0?'ture':'flase'}}</view>
+</view> -->
+<!-- <view id="arr-for">
+  <view 
+    wx:for="{{arr}}"
+    wx:key="index"
+  >
+    <view>item: {{item}}</view>
+    <view>index: {{index}}</view>
+  </view>
+</view> 
+  wx:for-index="" wx:for-item=""
+-->
+<!-- 
+  在对象遍历中: index代表键, item 代表值
+ -->
+<!-- <view id="obj-for" wx:for="{{obj1}}" wx:key="name" >
+  <view>{{index}}: {{item}}</view>  
+</view> -->
+
+<!-- 
+  block标签: 渲染完成后最外层消失
+ -->
+<!-- <view wx:for="{{arr}}" wx:key="index">
+  <block>{{index}}: {{item}}</block>    
+</view> -->
+<!-- 
+  条件渲染: 1. hidden 2. wx:if
+  1 和 2 的区别
+    1: 添加属性 display: none
+    2: 直接移除文本内容
+ -->
+<!-- <view>
+  <view>显示字段</view>
+  <view hidden="{{true}}">hidden隐藏字段</view>
+  <view wx:if="{{!isRender}}">wx:if隐藏字段</view>
+</view> -->
+<!-- 
+  wx:if wx:elif wx:else (if else-if else)
+ -->
+ <!-- <view>
+   <view wx:if="{{!isRender}}">渲染if</view>
+   <view wx:elif="{{!isRender}}">渲染elif</view>
+   <view wx:else="{{isRender}}">渲染else</view>
+ </view> -->
+ <!-- 
+   实现一个小需求: 输入框输入, 然后值实时发生改变
+  -->
+<view>
+  <input type="text" bindinput="handleInput" />
+  <view>
+    <text>{{counter}}</text>
+    <button bindtap="handleCal" data-operation="{{1}}">+</button>
+    <button bindtap="handleCal" data-operation="{{-1}}">-</button>
+  </view>
+</view>
